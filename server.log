@@ -1,0 +1,791 @@
+$ next dev --turbopack
+   ▲ Next.js 15.5.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1629ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7.6s
+ GET / 200 in 8383ms
+ GET / 200 in 4891ms
+ ⚠ Cross origin request detected from floppy-planets-jam.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 966ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 1343ms
+ ✓ Compiled in 1446ms
+ GET / 200 in 706ms
+ ⚠ The requested resource "/images/pfp.gif" is an animated image so it will not be optimized. Consider adding the "unoptimized" property to the <Image>.
+ GET / 200 in 488ms
+ ✓ Compiled in 351ms
+ ✓ Compiled in 348ms
+ ✓ Compiled in 233ms
+ ⨯ ./app/page.tsx:259:17
+Parsing ecmascript source code failed
+[0m [90m 257 |[39m [32m     | |[39m
+ [90m 258 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 259 |[39m [32m  / _`[39m [33m|[39m[33m/[39m _[32m` |/ _`[39m [33m|[39m
+ [90m     |[39m                 [31m[1m^[22m[39m
+ [90m 260 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m 261 |[39m   [37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m 262 |[39m [32m`}[39m[0m
+
+Expected '</', got '_'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.9s
+ GET / 500 in 4238ms
+ GET /favicon.ico 500 in 85ms
+ ⨯ ./app/page.tsx:259:17
+Parsing ecmascript source code failed
+[0m [90m 257 |[39m [32m     | |[39m
+ [90m 258 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 259 |[39m [32m  / _`[39m [33m|[39m[33m/[39m _[32m` |/ _`[39m [33m|[39m
+ [90m     |[39m                 [31m[1m^[22m[39m
+ [90m 260 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m 261 |[39m   [37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m 262 |[39m [32m`}[39m[0m
+
+Expected '</', got '_'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 115ms
+ ⨯ ./app/page.tsx:259:17
+Parsing ecmascript source code failed
+[0m [90m 257 |[39m [32m     | |[39m
+ [90m 258 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 259 |[39m [32m  / _`[39m [33m|[39m[33m/[39m _[32m` |/ _`[39m [33m|[39m
+ [90m     |[39m                 [31m[1m^[22m[39m
+ [90m 260 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m 261 |[39m   [37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m 262 |[39m [32m`}[39m[0m
+
+Expected '</', got '_'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 106ms
+ ✓ Compiled in 253ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled / in 33ms
+ GET / 200 in 618ms
+ GET / 200 in 712ms
+ GET / 200 in 210ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 303ms
+ GET / 200 in 205ms
+ ✓ Compiled in 271ms
+ ✓ Compiled in 329ms
+ ✓ Compiled in 291ms
+ ✓ Compiled in 393ms
+ ✓ Compiled in 311ms
+ ⨯ ./app/page.tsx:45:31
+Parsing ecmascript source code failed
+[0m [90m 43 |[39m       {[90m/* Background Sprites - Mischief Mode (Littered everywhere) */[39m}
+ [90m 44 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(^._.^)"[39m className[33m=[39m[32m"fixed top-10 left-10 text-green-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 45 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\")"[39m className[33m=[39m[32m"fixed top-40 right-10 text-blue-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"float"[39m [33m/[39m[33m>[39m
+ [90m    |[39m                               [31m[1m^[22m[39m
+ [90m 46 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(O_O)"[39m className[33m=[39m[32m"fixed bottom-20 left-20 text-red-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"glitch"[39m [33m/[39m[33m>[39m
+ [90m 47 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"[###]"[39m className[33m=[39m[32m"fixed bottom-40 right-40 text-purple-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"slide"[39m [33m/[39m[33m>[39m
+ [90m 48 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"{~_~}"[39m className[33m=[39m[32m"fixed top-1/2 right-4 text-yellow-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 220ms
+ GET /favicon.ico 500 in 53ms
+ ⨯ ./app/page.tsx:45:31
+Parsing ecmascript source code failed
+[0m [90m 43 |[39m       {[90m/* Background Sprites - Mischief Mode (Littered everywhere) */[39m}
+ [90m 44 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(^._.^)"[39m className[33m=[39m[32m"fixed top-10 left-10 text-green-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 45 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\")"[39m className[33m=[39m[32m"fixed top-40 right-10 text-blue-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"float"[39m [33m/[39m[33m>[39m
+ [90m    |[39m                               [31m[1m^[22m[39m
+ [90m 46 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(O_O)"[39m className[33m=[39m[32m"fixed bottom-20 left-20 text-red-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"glitch"[39m [33m/[39m[33m>[39m
+ [90m 47 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"[###]"[39m className[33m=[39m[32m"fixed bottom-40 right-40 text-purple-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"slide"[39m [33m/[39m[33m>[39m
+ [90m 48 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"{~_~}"[39m className[33m=[39m[32m"fixed top-1/2 right-4 text-yellow-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 128ms
+ ⨯ ./app/page.tsx:45:31
+Parsing ecmascript source code failed
+[0m [90m 43 |[39m       {[90m/* Background Sprites - Mischief Mode (Littered everywhere) */[39m}
+ [90m 44 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(^._.^)"[39m className[33m=[39m[32m"fixed top-10 left-10 text-green-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 45 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\")"[39m className[33m=[39m[32m"fixed top-40 right-10 text-blue-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"float"[39m [33m/[39m[33m>[39m
+ [90m    |[39m                               [31m[1m^[22m[39m
+ [90m 46 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(O_O)"[39m className[33m=[39m[32m"fixed bottom-20 left-20 text-red-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"glitch"[39m [33m/[39m[33m>[39m
+ [90m 47 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"[###]"[39m className[33m=[39m[32m"fixed bottom-40 right-40 text-purple-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"slide"[39m [33m/[39m[33m>[39m
+ [90m 48 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"{~_~}"[39m className[33m=[39m[32m"fixed top-1/2 right-4 text-yellow-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 104ms
+ ⨯ ./app/page.tsx:45:31
+Parsing ecmascript source code failed
+[0m [90m 43 |[39m       {[90m/* Background Sprites - Mischief Mode (Littered everywhere) */[39m}
+ [90m 44 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(^._.^)"[39m className[33m=[39m[32m"fixed top-10 left-10 text-green-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 45 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\")"[39m className[33m=[39m[32m"fixed top-40 right-10 text-blue-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"float"[39m [33m/[39m[33m>[39m
+ [90m    |[39m                               [31m[1m^[22m[39m
+ [90m 46 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"(O_O)"[39m className[33m=[39m[32m"fixed bottom-20 left-20 text-red-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"glitch"[39m [33m/[39m[33m>[39m
+ [90m 47 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"[###]"[39m className[33m=[39m[32m"fixed bottom-40 right-40 text-purple-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"slide"[39m [33m/[39m[33m>[39m
+ [90m 48 |[39m       [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"{~_~}"[39m className[33m=[39m[32m"fixed top-1/2 right-4 text-yellow-500/20 text-[12px] z-[-1]"[39m animate[33m=[39m[32m"bounce"[39m [33m/[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 152ms
+ ✓ Compiled in 339ms
+ ✓ Compiled / in 28ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 650ms
+ GET / 200 in 471ms
+ GET / 200 in 470ms
+ GET / 200 in 470ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 295ms
+ GET / 200 in 604ms
+ ✓ Compiled in 217ms
+ ✓ Compiled in 794ms
+ GET / 200 in 765ms
+ ✓ Compiled in 216ms
+ ✓ Compiled in 533ms
+ GET / 200 in 643ms
+ GET / 200 in 248ms
+ ✓ Compiled in 426ms
+ ✓ Compiled in 0ms
+ GET / 200 in 818ms
+ ✓ Compiled in 217ms
+ ✓ Compiled in 200ms
+ ✓ Compiled in 183ms
+ ✓ Compiled in 262ms
+ ✓ Compiled in 546ms
+ ✓ Compiled in 195ms
+ ✓ Compiled in 157ms
+ ✓ Compiled in 304ms
+ ✓ Compiled in 332ms
+ GET / 200 in 743ms
+ GET / 200 in 196ms
+ GET / 200 in 223ms
+ GET / 200 in 326ms
+ ✓ Compiled in 295ms
+ ✓ Compiled in 298ms
+ ✓ Compiled in 0ms
+ ⨯ ./app/page.tsx:346:24
+Parsing ecmascript source code failed
+[0m [90m 344 |[39m [32m     | |[39m
+ [90m 345 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 346 |[39m [32m  / _\\`[39m [33m|[39m[33m/[39m _[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[32m` |/ _\\`[39m [33m|[39m
+ [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 347 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 348 |[39m   [37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 349 |[39m           [32m`}[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 350 |[39m [32m          className="text-white/30 text-sm"[39m
+ [90m 351 |[39m [32m          animate="float"[39m
+ [90m 352 |[39m [32m        />[39m[0m
+
+Expected '</', got ' |
+ | (_| | (_| | (_| |
+  \\\\__,_|\\\\__,_|\\\\__,_|
+          '
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 129ms
+ GET /favicon.ico 500 in 89ms
+ ⨯ ./app/page.tsx:346:24
+Parsing ecmascript source code failed
+[0m [90m 344 |[39m [32m     | |[39m
+ [90m 345 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 346 |[39m [32m  / _\\`[39m [33m|[39m[33m/[39m _[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[32m` |/ _\\`[39m [33m|[39m
+ [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 347 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 348 |[39m   [37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 349 |[39m           [32m`}[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 350 |[39m [32m          className="text-white/30 text-sm"[39m
+ [90m 351 |[39m [32m          animate="float"[39m
+ [90m 352 |[39m [32m        />[39m[0m
+
+Expected '</', got ' |
+ | (_| | (_| | (_| |
+  \\\\__,_|\\\\__,_|\\\\__,_|
+          '
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 114ms
+ ✓ Compiled in 199ms
+ ⨯ ./app/page.tsx:349:24
+Parsing ecmascript source code failed
+[0m [90m 347 |[39m [32m     | |[39m
+ [90m 348 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 349 |[39m [32m  / _\\`[39m [33m|[39m[33m/[39m _[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[32m` |/ _\\`[39m [33m|[39m
+ [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 350 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 351 |[39m   [37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 352 |[39m           [32m`}[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 353 |[39m [32m          className="text-white/30 text-sm"[39m
+ [90m 354 |[39m [32m          animate="float"[39m
+ [90m 355 |[39m [32m        />[39m[0m
+
+Expected '</', got ' |
+ | (_| | (_| | (_| |
+  \\\\__,_|\\\\__,_|\\\\__,_|
+          '
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 104ms
+ GET /favicon.ico 500 in 53ms
+ ⨯ ./app/page.tsx:349:24
+Parsing ecmascript source code failed
+[0m [90m 347 |[39m [32m     | |[39m
+ [90m 348 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 349 |[39m [32m  / _\\`[39m [33m|[39m[33m/[39m _[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[32m` |/ _\\`[39m [33m|[39m
+ [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 350 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 351 |[39m   [37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 352 |[39m           [32m`}[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 353 |[39m [32m          className="text-white/30 text-sm"[39m
+ [90m 354 |[39m [32m          animate="float"[39m
+ [90m 355 |[39m [32m        />[39m[0m
+
+Expected '</', got ' |
+ | (_| | (_| | (_| |
+  \\\\__,_|\\\\__,_|\\\\__,_|
+          '
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 122ms
+ ⨯ ./app/page.tsx:349:24
+Parsing ecmascript source code failed
+[0m [90m 347 |[39m [32m     | |[39m
+ [90m 348 |[39m [32m   __| | __ _  __| |[39m
+[31m[1m>[22m[39m[90m 349 |[39m [32m  / _\\`[39m [33m|[39m[33m/[39m _[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[32m` |/ _\\`[39m [33m|[39m
+ [90m     |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 350 |[39m  [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m (_[33m|[39m [33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 351 |[39m   [37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m[37m[41m[1m\[22m[49m[39m__[33m,[39m_[33m|[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 352 |[39m           [32m`}[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 353 |[39m [32m          className="text-white/30 text-sm"[39m
+ [90m 354 |[39m [32m          animate="float"[39m
+ [90m 355 |[39m [32m        />[39m[0m
+
+Expected '</', got ' |
+ | (_| | (_| | (_| |
+  \\\\__,_|\\\\__,_|\\\\__,_|
+          '
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 100ms
+ ✓ Compiled in 189ms
+ ⨯ ./app/page.tsx:406:1
+Parsing ecmascript source code failed
+[0m [90m 404 |[39m [32m  )[39m
+ [90m 405 |[39m [32m}[39m
+[31m[1m>[22m[39m[90m 406 |[39m [32m[39m
+ [90m     |[39m [31m[1m^[22m[39m[0m
+
+Unexpected eof
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 119ms
+ GET /favicon.ico 500 in 57ms
+ ⨯ ./app/page.tsx:406:1
+Parsing ecmascript source code failed
+[0m [90m 404 |[39m [32m  )[39m
+ [90m 405 |[39m [32m}[39m
+[31m[1m>[22m[39m[90m 406 |[39m [32m[39m
+ [90m     |[39m [31m[1m^[22m[39m[0m
+
+Unexpected eof
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 117ms
+ ✓ Compiled in 329ms
+ ✓ Compiled / in 31ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 692ms
+ GET / 200 in 518ms
+ GET / 200 in 517ms
+ GET / 200 in 516ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 330ms
+ GET / 200 in 219ms
+ ✓ Compiled in 356ms
+ ✓ Compiled in 344ms
+ ✓ Compiled in 202ms
+ ✓ Compiled in 418ms
+ ✓ Compiled in 606ms
+ ⨯ ./app/page.tsx:151:43
+Parsing ecmascript source code failed
+[0m [90m 149 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"relative"[39m[33m>[39m
+ [90m 150 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute top-0 right-0 p-2 opacity-20"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 151 |[39m                 [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\\\")"[39m animate[33m=[39m[32m"float"[39m className[33m=[39m[32m"text-purple-500"[39m [33m/[39m[33m>[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 152 |[39m               [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 153 |[39m               [33m<[39m[33mGlassCard[39m delay[33m=[39m{[35m0.4[39m} className[33m=[39m[32m"relative overflow-hidden border-t-8 border-t-purple-600 bg-black/60 h-full"[39m[33m>[39m
+ [90m 154 |[39m                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center gap-4 mb-8"[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 138ms
+ GET /favicon.ico 500 in 69ms
+ ⨯ ./app/page.tsx:150:43
+Parsing ecmascript source code failed
+[0m [90m 148 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"relative"[39m[33m>[39m
+ [90m 149 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute top-0 right-0 p-2 opacity-20"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 150 |[39m                 [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\\\")"[39m animate[33m=[39m[32m"float"[39m className[33m=[39m[32m"text-purple-500"[39m [33m/[39m[33m>[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 151 |[39m               [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 152 |[39m               [33m<[39m[33mGlassCard[39m delay[33m=[39m{[35m0.4[39m} className[33m=[39m[32m"relative overflow-hidden border-t-8 border-t-purple-600 bg-black/60 h-full"[39m[33m>[39m
+ [90m 153 |[39m                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center gap-4 mb-8"[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 148ms
+ GET /favicon.ico 500 in 71ms
+ ⨯ ./app/page.tsx:150:43
+Parsing ecmascript source code failed
+[0m [90m 148 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"relative"[39m[33m>[39m
+ [90m 149 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute top-0 right-0 p-2 opacity-20"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 150 |[39m                 [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\\\")"[39m animate[33m=[39m[32m"float"[39m className[33m=[39m[32m"text-purple-500"[39m [33m/[39m[33m>[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 151 |[39m               [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 152 |[39m               [33m<[39m[33mGlassCard[39m delay[33m=[39m{[35m0.4[39m} className[33m=[39m[32m"relative overflow-hidden border-t-8 border-t-purple-600 bg-black/60 h-full"[39m[33m>[39m
+ [90m 153 |[39m                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center gap-4 mb-8"[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 352ms
+ ⨯ ./app/page.tsx:150:43
+Parsing ecmascript source code failed
+[0m [90m 148 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"relative"[39m[33m>[39m
+ [90m 149 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute top-0 right-0 p-2 opacity-20"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 150 |[39m                 [33m<[39m[33mAsciiSprite[39m art[33m=[39m[32m"<(\\\\\")"[39m animate[33m=[39m[32m"float"[39m className[33m=[39m[32m"text-purple-500"[39m [33m/[39m[33m>[39m
+ [90m     |[39m                                           [31m[1m^[22m[39m
+ [90m 151 |[39m               [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 152 |[39m               [33m<[39m[33mGlassCard[39m delay[33m=[39m{[35m0.4[39m} className[33m=[39m[32m"relative overflow-hidden border-t-8 border-t-purple-600 bg-black/60 h-full"[39m[33m>[39m
+ [90m 153 |[39m                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex items-center gap-4 mb-8"[39m[33m>[39m[0m
+
+Expected '</', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 135ms
+ ⨯ ./app/page.tsx:425:1
+Parsing ecmascript source code failed
+[0m [90m 423 |[39m [32m  )[39m
+ [90m 424 |[39m [32m}[39m
+[31m[1m>[22m[39m[90m 425 |[39m [32m[39m
+ [90m     |[39m [31m[1m^[22m[39m[0m
+
+Unexpected eof
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 144ms
+ GET /favicon.ico 500 in 92ms
+ ⨯ ./app/page.tsx:425:1
+Parsing ecmascript source code failed
+[0m [90m 423 |[39m [32m  )[39m
+ [90m 424 |[39m [32m}[39m
+[31m[1m>[22m[39m[90m 425 |[39m [32m[39m
+ [90m     |[39m [31m[1m^[22m[39m[0m
+
+Unexpected eof
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 117ms
+ ✓ Compiled in 377ms
+ ✓ Compiled / in 50ms
+ GET / 200 in 752ms
+ GET / 200 in 841ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 310ms
+ GET / 200 in 263ms
+ ✓ Compiled in 720ms
+ GET / 200 in 1003ms
+ ✓ Compiled in 292ms
+ ✓ Compiled in 226ms
+ ✓ Compiled in 202ms
+ ✓ Compiled in 314ms
+ ✓ Compiled in 375ms
+ ⨯ ./app/page.tsx:228:15
+Ecmascript file had an error
+[0m [90m 226 |[39m             [33m<[39m[33mAsciiSprite[39m art[33m=[39m{[33mHACK_BANNER[39m} className[33m=[39m[32m"text-[10px] md:text-[12px] text-white font-black"[39m animate[33m=[39m[32m"glitch"[39m [33m/[39m[33m>[39m
+ [90m 227 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex gap-8 md:gap-12"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 228 |[39m               [33m<[39m[33mSkull[39m className[33m=[39m[32m"text-red-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 229 |[39m               [33m<[39m[33mActivity[39m className[33m=[39m[32m"text-green-500 animate-bounce"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 230 |[39m               [33m<[39m[33mShieldAlert[39m className[33m=[39m[32m"text-yellow-500 animate-ping"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 231 |[39m               [33m<[39m[33mBug[39m className[33m=[39m[32m"text-blue-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m[0m
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:229:15
+Ecmascript file had an error
+[0m [90m 227 |[39m             [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex gap-8 md:gap-12"[39m[33m>[39m
+ [90m 228 |[39m               [33m<[39m[33mSkull[39m className[33m=[39m[32m"text-red-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 229 |[39m               [33m<[39m[33mActivity[39m className[33m=[39m[32m"text-green-500 animate-bounce"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 230 |[39m               [33m<[39m[33mShieldAlert[39m className[33m=[39m[32m"text-yellow-500 animate-ping"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 231 |[39m               [33m<[39m[33mBug[39m className[33m=[39m[32m"text-blue-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 232 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:230:15
+Ecmascript file had an error
+[0m [90m 228 |[39m               [33m<[39m[33mSkull[39m className[33m=[39m[32m"text-red-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 229 |[39m               [33m<[39m[33mActivity[39m className[33m=[39m[32m"text-green-500 animate-bounce"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 230 |[39m               [33m<[39m[33mShieldAlert[39m className[33m=[39m[32m"text-yellow-500 animate-ping"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 231 |[39m               [33m<[39m[33mBug[39m className[33m=[39m[32m"text-blue-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 232 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 233 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:231:15
+Ecmascript file had an error
+[0m [90m 229 |[39m               [33m<[39m[33mActivity[39m className[33m=[39m[32m"text-green-500 animate-bounce"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m 230 |[39m               [33m<[39m[33mShieldAlert[39m className[33m=[39m[32m"text-yellow-500 animate-ping"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 231 |[39m               [33m<[39m[33mBug[39m className[33m=[39m[32m"text-blue-500 animate-pulse"[39m size[33m=[39m{[35m32[39m} md[33m:[39msize[33m=[39m{[35m48[39m} [33m/[39m[33m>[39m
+ [90m     |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 232 |[39m             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 233 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 234 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:310:5
+Ecmascript file had an error
+[0m [90m 308 |[39m [36mfunction[39m [33mXIcon[39m() {
+ [90m 309 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m 310 |[39m     [33m<[39m[33msvg[39m width[33m=[39m[32m"18"[39m height[33m=[39m[32m"18"[39m md[33m:[39mwidth[33m=[39m[32m"20"[39m md[33m:[39mheight[33m=[39m[32m"20"[39m viewBox[33m=[39m[32m"0 0 24 24"[39m fill[33m=[39m[32m"currentColor"[39m[33m>[39m
+ [90m     |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 311 |[39m       [33m<[39m[33mpath[39m d[33m=[39m[32m"M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.064-6.932zm-1.292 19.494h2.039L6.486 3.24H4.298l13.311 17.407z"[39m [33m/[39m[33m>[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+[31m[1m>[22m[39m[90m 312 |[39m     [33m<[39m[33m/[39m[33msvg[39m[33m>[39m
+ [90m     |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 313 |[39m   )
+ [90m 314 |[39m }
+ [90m 315 |[39m[0m
+
+JSX Namespace is disabled by default because react does not support it yet. You can specify jsc.transform.react.throwIfNamespace to false to override default behavior
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 178ms
+ GET /favicon.ico 500 in 65ms
+ ✓ Compiled in 281ms
+ ✓ Compiled in 252ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled / in 43ms
+ GET / 200 in 699ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 298ms
+ GET / 200 in 237ms
+ GET / 200 in 556ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 293ms
+ GET / 200 in 507ms
+ GET / 200 in 406ms
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+ ✓ Ready in 1761ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.7s
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.tjnuedmiap'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.tjnuedmiap'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.7s
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.wknu6s04tz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.wknu6s04tz'
+}
+[Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.tjnuedmiap'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.tjnuedmiap'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.7ijfx76lcye'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.7ijfx76lcye'
+}
+[Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.smlpz937w6'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.smlpz937w6'
+}
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 648ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.fr9cfyirjwe'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/code/grey-portfolio/.next/static/development/_buildManifest.js.tmp.fr9cfyirjwe'
+}
