@@ -52,12 +52,14 @@ export function Terminal({ onCommand }: TerminalProps) {
         setHistory(prev => [...prev, "Find me on X: @gogokikaider, Farcaster: @greyseymour, or cal.com/growth"])
         break
       case "easter-egg":
-        setHistory(prev => [...prev, "🥚 You found it! Try clicking the logo 3 times..."])
+        setHistory(prev => [...prev, "🥚 SYSTEM_OVERRIDE INITIATED..."])
         break
       case "":
       default:
         setHistory(prev => [...prev, helpText])
     }
+    
+    // This line triggers the animation on the main page
     if (onCommand) onCommand(normalized)
   }
 
@@ -66,6 +68,7 @@ export function Terminal({ onCommand }: TerminalProps) {
       className="bg-black border-2 border-green-500/30 rounded-xl p-6 font-mono text-sm h-[450px] flex flex-col shadow-[0_0_30px_rgba(0,255,0,0.1)] relative overflow-hidden"
       onClick={() => inputRef.current?.focus()}
     >
+      {/* Scanline effect */}
       <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] z-10 bg-[length:100%_2px,3px_100%]" />
       
       <div className="flex items-center justify-between mb-4 border-b border-green-500/20 pb-2 z-20">
