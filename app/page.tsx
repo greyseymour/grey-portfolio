@@ -11,7 +11,6 @@ import { Gremlin } from "@/components/Gremlin"
 import { 
   Linkedin, 
   ExternalLink, 
-  Zap, 
   Code, 
   Palette, 
   Users,
@@ -20,11 +19,11 @@ import {
   Activity,
   ShieldAlert,
   Bug,
-  Mail,
-  ChevronRight
+  Mail
 } from "lucide-react"
 import Image from "next/image"
 
+// ASCII Art Constants
 const GROWTH_CULT_ART = "     .---.\n    /     \\\n    | () () |\n    \\  ^  /\n     '---'";
 const ENGINE_ART = "      .--------.\n    / .------. \\\n   / /        \\ \\\n   | |        | |\n  _| |________| |_\n.' |_|        |_| '.\n'._____ ____ _____.'\n|     .'    '.     |\n'----|        |----'\n     |        |\n     |        |\n     '--------'";
 const HACK_BANNER = "    ________________________________________________\n   /                                                \\\n  |    HACK THE PLANET. GROW THE CULT. ONCHAIN.      |\n   \\________________________________________________/";
@@ -43,10 +42,19 @@ export default function Home() {
     }
   }
 
+  // This function catches the command from the Terminal component
+  const handleCommand = (cmd: string) => {
+    if (cmd === "easter-egg") {
+      setShowEasterEgg(true)
+      setTimeout(() => setShowEasterEgg(false), 5000)
+    }
+  }
+
   return (
     <main className="min-h-screen p-4 md:p-8 lg:p-12 max-w-7xl mx-auto space-y-16 relative overflow-hidden bg-black">
       <MatrixRain />
       <Gremlin />
+      
       <header className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
         <div className="flex items-center gap-8">
           <motion.div 
@@ -71,32 +79,48 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center md:justify-end gap-3 max-w-full px-4">
-          <SocialLink href="http://farcaster.xyz/greyseymour" icon={<FarcasterIcon />} />
-          <SocialLink href="https://x.com/gogokikaider" icon={<XIcon />} />
-          <SocialLink href="https://www.linkedin.com/in/ggseymour" icon={<Linkedin size={20} />} />
+        <div className="flex flex-col items-center md:items-end gap-3">
+          <div className="flex gap-3">
+            <SocialLink href="http://farcaster.xyz/greyseymour" icon={<FarcasterIcon />} />
+            <SocialLink href="https://x.com/gogokikaider" icon={<XIcon />} />
+            <SocialLink href="https://www.linkedin.com/in/ggseymour" icon={<Linkedin size={20} />} />
+          </div>
           <SocialLink href="mailto:grey@greyseymour.com" icon={<Mail size={20} />} />
         </div>
       </header>
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 relative">
         <div className="lg:col-span-2 space-y-16">
-          <Terminal />
-          <GlassCard delay={0.2} className="border-l-8 border-l-blue-600 bg-black/60">
-            <div className="flex items-center justify-between mb-8">
-              <div className="flex items-center gap-6">
-                <div className="p-3 bg-blue-600/20 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.3)]"><Users className="text-blue-400" size={32} /></div>
-                <h2 className="text-4xl font-black text-white tracking-tighter italic">THE GROWTH CULT</h2>
+          <div className="relative">
+            <div className="absolute -top-4 -left-4 z-30">
+              <AsciiSprite art="[ SYSTEM_CORE: ACTIVE ]" className="text-[10px] text-green-400 bg-black px-2 border border-green-500" animate="glitch" />
+            </div>
+            {/* Pass the command handler to the Terminal */}
+            <Terminal onCommand={handleCommand} />
+          </div>
+          
+          <div className="relative">
+            <div className="absolute -top-8 right-10 opacity-30">
+              <AsciiSprite art="(^._.^)" animate="bounce" className="text-blue-400" />
+            </div>
+            <GlassCard delay={0.2} className="border-l-8 border-l-blue-600 bg-black/60">
+              <div className="flex items-center justify-between mb-8">
+                <div className="flex items-center gap-6">
+                  <div className="p-3 bg-blue-600/20 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.3)]"><Users className="text-blue-400" size={32} /></div>
+                  <h2 className="text-4xl font-black text-white tracking-tighter italic">THE GROWTH CULT</h2>
+                </div>
+                <AsciiSprite art={GROWTH_CULT_ART} className="text-blue-400/40 hidden md:block" animate="float" />
               </div>
-              <AsciiSprite art={GROWTH_CULT_ART} className="text-blue-400/40 hidden md:block" animate="float" />
-            </div>
-            <p className="text-white/90 text-xl leading-relaxed mb-10 font-bold">We've driven growth for <span className="text-blue-400 underline decoration-double underline-offset-8">&gt;80 onchain projects</span> in the last year.</p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <Stat label="Projects" value="80+" color="blue" />
-              <Stat label="Mints" value="50k+" color="blue" />
-              <Stat label="Music Mints" value="15k+" color="blue" />
-              <Stat label="Ecosystem" value="Base" color="blue" />
-            </div>
-          </GlassCard>
+              <p className="text-white/90 text-xl leading-relaxed mb-10 font-bold">We've driven growth for <span className="text-blue-400 underline decoration-double underline-offset-8">&gt;80 onchain projects</span> in the last year.</p>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <Stat label="Projects" value="80+" color="blue" />
+                <Stat label="Mints" value="50k+" color="blue" />
+                <Stat label="Music Mints" value="15k+" color="blue" />
+                <Stat label="Ecosystem" value="Base" color="blue" />
+              </div>
+            </GlassCard>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <GlassCard delay={0.4} className="relative overflow-hidden border-t-8 border-t-purple-600 bg-black/60 h-full">
               <div className="flex items-center gap-4 mb-8"><Palette className="text-purple-400" size={28} /><h3 className="text-3xl font-black text-white italic">Artist & Degen</h3></div>
@@ -108,10 +132,12 @@ export default function Home() {
             </GlassCard>
           </div>
         </div>
+
         <div className="space-y-16">
           <div className="relative group">
             <div className="absolute -inset-2 bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 rounded-3xl blur opacity-40 group-hover:opacity-100 transition duration-1000 animate-gradient-x" />
             <GlassCard className="bg-black border-4 border-blue-500 relative overflow-hidden" delay={0.8}>
+              <div className="absolute top-0 right-0 p-4 opacity-10"><AsciiSprite art="(O_O)" animate="glitch" className="text-white" /></div>
               <div className="flex items-center gap-4 mb-8"><Calendar className="text-blue-400" size={36} /><h2 className="text-4xl font-black text-white italic tracking-tighter">LET'S CHAT</h2></div>
               <p className="text-white text-xl mb-10 font-black leading-tight">Building onchain? Let's find a time to discuss your growth strategy.</p>
               <div className="relative p-[4px] rounded-2xl overflow-hidden group/btn">
@@ -122,14 +148,44 @@ export default function Home() {
               </div>
             </GlassCard>
           </div>
+
           <div className="relative">
+            <div className="absolute -top-6 left-1/2 -translate-x-1/2 z-20">
+              <div className="bg-green-500 text-black px-4 py-1 font-black text-xs skew-x-[-12deg] shadow-[5px_5px_0_rgba(0,0,0,1)]">ENGINE_STATUS: OVERDRIVE</div>
+            </div>
             <GlassCard className="h-[500px] flex flex-col items-center justify-center text-center bg-black border-4 border-green-500 shadow-[inset_0_0_100px_rgba(0,255,0,0.2)] relative" delay={1}>
               <motion.pre animate={{ y: [0, -20, 0], filter: ["drop-shadow(0 0 10px #4ade80)", "drop-shadow(0 0 40px #4ade80)", "drop-shadow(0 0 10px #4ade80)"], scale: [1, 1.1, 1], rotate: [0, 1, -1, 0] }} transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} className="text-[16px] leading-[14px] text-green-400 font-black font-mono">{ENGINE_ART}</motion.pre>
               <p className="mt-10 text-green-400 text-lg uppercase tracking-[0.6em] font-black animate-pulse drop-shadow-[0_0_10px_#4ade80]">ONCHAIN GROWTH ENGINE</p>
             </GlassCard>
           </div>
+          
+          <div className="flex flex-col items-center gap-6 opacity-40 hover:opacity-100 transition-opacity duration-500">
+            <AsciiSprite art={HACK_BANNER} className="text-[12px] text-white font-black" animate="glitch" />
+            <div className="flex gap-12">
+              <Skull className="text-red-500 animate-pulse" size={48} /><Activity className="text-green-500 animate-bounce" size={48} /><ShieldAlert className="text-yellow-500 animate-ping" size={48} /><Bug className="text-blue-500 animate-pulse" size={48} />
+            </div>
+          </div>
         </div>
       </div>
+
+      <AnimatePresence>
+        {showEasterEgg && (
+          <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.5 }} className="fixed inset-0 z-[100] flex items-center justify-center pointer-events-none bg-black/95 backdrop-blur-3xl">
+            <div className="text-center space-y-12">
+              <h2 className="text-9xl font-black text-green-400 animate-glitch drop-shadow-[0_0_50px_#4ade80] italic">SYSTEM_OVERRIDE</h2>
+              <pre className="text-green-400 text-2xl font-black tracking-widest">
+{`
+   [ 01010101 01010101 01010101 ]
+   [ GROWTH   CULT     ONCHAIN  ]
+   [ PROTOCOL: COMPROMISED      ]
+   [ ACCESS: GRANTED            ]
+`}
+              </pre>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <footer className="pt-32 pb-16 text-center text-white/50 text-base font-mono flex flex-col items-center gap-12 relative">
         <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-green-500/30 to-transparent" />
         <AsciiSprite art={FOOTER_ART} className="text-white/30 text-sm" animate="float" />
