@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GREY G. SEYMOUR",
+  title: "Grey G. Seymour",
   description: "onchain growth guy of your dreams",
   icons: {
     icon: "/favicon.gif",
