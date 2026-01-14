@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GREY G. SEYMOUR",
   description: "onchain growth guy of your dreams",
+  icons: {
+    icon: "/favicon.gif",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Umami Analytics Snippet */}
         <script defer src="https://cloud.umami.is/script.js" data-website-id="09fb6b6b-63f0-4339-8417-4e2caef31152"></script>
       </head>
       <body
